@@ -16,6 +16,6 @@ Demo Webservice
 13) First have org and team created.
 14) Create webhook under organization fidaly in Github.
 15) Copy lambda url, select json type and select 'create repository' checkbox.
-16) Go from profile level top setting to developer setting. select personal token. Generate lambdatoken. My token --> f13342fd28cd3fb086322c1fb2bedec00bdd4d85. This token will be used in LamdaRequestHandler webservice for aws <--> Github communication.
+16) Go from profile level top setting to developer setting. select personal token. Generate lambdatoken. This token will be used in LamdaRequestHandler webservice for aws <--> Github communication.
 17) In webservice mention is post method. Protection is put method. Github to aws is post method.
 18) Now we can test by creating repository inside fidaly organization in Github. As soon as repostory is created, we traverse through branch screen and can observe that the 'Master' branch appears under Protected branch.
